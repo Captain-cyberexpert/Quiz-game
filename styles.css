@@ -1,0 +1,109 @@
+        /* Style the radio buttons to appear like text inputs */
+        input[type="radio"] {
+            display: none;
+        }
+        #main{
+            background-image:url('images.jpg');
+            background-size: auto;
+            background-attachment: fixed;
+        }
+
+        .next {
+            margin-top: 12px;
+        }
+        #quiz {
+            text-align: center;
+            text-decoration: solid;
+            text-transform: uppercase;
+            font-size: x-large;
+        }
+        .question{
+            margin-top: 20vh;
+            text-align: center;
+        }
+
+        a {
+            background-color: blue;
+            color: #fff;
+            padding: 7px 20px;
+            border-radius: 12px;
+            text-decoration: none;
+            margin-top: 17px;
+            width: 200px;
+            cursor: pointer;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        form {
+    margin: 0 auto;
+    width: 500px;
+    position: relative;
+background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 50%;
+}
+
+/* form::before,
+form::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, #d9dede, #eae5eb, #e1e4e4, #e8e4e8);
+    background-size: 400% 400%;
+    border-radius: 15px;
+    animation: gradient 15s linear infinite;
+    z-index: -1;
+} */
+
+
+
+        /* Style the labels to look like text inputs */
+        label {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Style the labels when they are selected */
+        input[type="radio"]:checked+label {
+            background-color: red;
+            color: #fff;
+        }
+
+        .question {
+            height: 100vh;
+        }
+        h2{
+            text-align: center;
+            font-size: x-large;
+        }
+        #q1_paris:checked+label{
+
+            background-color: green;
+        }
+        #q2_whale:checked+label{
+
+            background-color: green;
+        }
+        #q3_7:checked+label{
+
+            background-color: green;
+        }
+        #q4_h2o:checked+label{
+
+            background-color: green;
+        }
+         #q5_100:checked+label{
+
+            background-color: green;
+        }
